@@ -1,7 +1,7 @@
 require "rails_helper"
 
-feature "A user can see that it" do
-  it "looks right" do
+feature "A user can" do
+  it "see that it looks right" do
     visit "/landing.html"
 
     Percy::Capybara.snapshot(page)

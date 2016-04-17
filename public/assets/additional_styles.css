@@ -1,54 +1,26 @@
-.main-content {
-  width: 960px;
-  margin: auto;
-}
+/* Additional styles */
 
-body{
-  font-family: 'Open Sans';
+body {
   background-color: rgb(251, 251, 251);
-    color: rgb(68,68,68);
+  color: rgb(68,68,68);
+  font-family: "Open Sans";
 }
 
-h1,h2 {
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  color: rgb(0,126,229) !important;
+}
+
+.get-started-now {
+  background-color: white;
+}
+
+h1, h2 {
   font-weight: 300;
   line-height: 125%;
-
-}
-
-h1 {font-size: 2em;}
-
-a{
-  text-decoration: none;
-}
-
-.li-footer {
-  margin-bottom: 10px;
-  color: rgb(119,119,119);
-}
-
-h4 {
-  color: rgb(153,153,153);
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.ul-footer {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  td {
-    vertical-align: top;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-/*td {
-  border: thin red solid;
-}*/
-
-a {
-  color: rgb(0,126,229);
 }
 
 p {
@@ -57,23 +29,21 @@ p {
   line-height: 175%;
 }
 
+/* Footer styles*/
 
-
-.button
-{
-  background-color: rgb(0,126,229);
-  width:100%;
-  border-radius: 5px;
-  color: white;
-  height: 40px;
-  transition: all 0.2s ease-in-out;
+footer h4 {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.primary-button:hover {
-  background-color: rgb(0, 65, 117);
+footer li {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
 }
 
-
+/* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
   padding-top: 10px;
