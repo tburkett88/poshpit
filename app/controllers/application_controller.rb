@@ -6,4 +6,11 @@ class ApplicationController < ActionController::Base
   def index
   end
 
+  def add
+      @email = Email.new
+      @email.email=params[:email]
+      @email.save
+    redirect_to("/index.html")
+  end
+
 end
