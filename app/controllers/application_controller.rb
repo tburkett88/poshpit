@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
       @email = Email.new
       @email.email=params[:email]
       @email.save
-    redirect_to("/index.html")
+    redirect_to("/")
   end
 
 end
